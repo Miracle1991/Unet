@@ -1,6 +1,10 @@
 # Unet-Keras
 
-# REF: https://www.kaggle.com/hmendonca/u-net-model-with-submission
+# REF: 
+https://www.kaggle.com/hmendonca/u-net-model-with-submission
+
+# Improve:
+1、using de-convelution_layer instead of upsampling_layer
 
 # DO YOU HAVE ANY IDEA: 
 Keras will take more and more memories as long as you start training. It will stop training When it has been iterated 3 epoch, because it run out of the memory.(I have 8G Memory)
